@@ -29,3 +29,16 @@ You could also install packages by using the Replit packager interface in the le
 
 If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
 
+## pi2_experiencein
+
+Projeto  didático desenvolvido na matéria de Programação para Internet II no curso de Tecnologia em Sistemas para Internet.
+
+O projeto experiencein é um estudo dirigido elaborado pelo professor Fábio Henrique Monteiro de Oliveira da disciplina Programação para Internet II, como forma de passar na matéria. 
+
+## Autor do projeto
+
+Fábio Henrique Monteiro de Oliveira
+
+# Desenvolvedora
+
+Deise Freire
