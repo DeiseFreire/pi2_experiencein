@@ -1,0 +1,48 @@
+http://localhost:8000/perfis/1
+http://localhost:8000/perfis/2
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+>>> from perfis.models import Perfil
+>>> perfil = Perfil(nome='Oswaldo', email='oswaldo@oswaldo.com', telefone='n/a', nome_empresa='IFB')
+>>> perfil.save()
+>>> perfil_encontrado = Perfil.objects.get(id=1)
+>>> perfil_encontrado.nome = 'Oswaldo Alterado'
+>>> perfil_encontrado.save()
+>>> perfil_encontrado = Perfil.objects.get(id=1)
+>>> perfil_encontrado.nome
+>>> from perfis.models import Perfil
+python manage.py shell
+>>> from perfis.models import Perfil
+>>> perfil = Perfil.objects.create(nome='Steve', email='steve@minecraft.com', telefone='n/a', nome_empresa='IFB')
+>>> p = Perfil.objects.get(id=1) 
+>>> p.nome
+>>> p = Perfil.objects.get(nome='Steve') 
+>>> p.id
+>>> perfis = Perfil.objects.filter(email__contains='s')
+>>> perfis = Perfil.objects.filter(email__startswith='s')
+>>> perfil1 = Perfil(nome='Fábio Henrique', email='fabio.oliveira@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
+>>> perfil1.save()
+>>> perfil2 = Perfil(nome='Tiago Henrique', email='tiago.segato@ifb.edu.br', telefone='n/a', nome_empresa='IFB')
+>>> perfil2.save()
+
+>>> python manage.py makemigrations
+>>> python manage.py migrate
+
+python manage.py shell
+>>> from perfis.models import Perfil
+# não esqueça que o ID deve representar o ID escolhido como perfil logado!
+>>> perfil = Perfil.objects.get(id=1)
+
+>>> for convite in perfil.convites_feitos.all():
+...        convite.convidado.nome
+
+python manage.py shell
+>>> from perfis.models import Convite, Perfil
+>>> a_convidar = Perfil.objects.get(id=1)  
+>>> solicitante = Perfil.objects.get(id=2) 
+>>> solicitante.convidar(a_convidar)
+
+https://canvas.instructure.com/courses/4579838/pages/4-dot-4-buscando-perfis?module_item_id=64189815
+
+https://canvas.instructure.com/courses/4579838/pages/11-dot-1-persistindo-perfis-e-validando-formularios?module_item_id=64189843
