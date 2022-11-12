@@ -42,3 +42,9 @@ Fábio Henrique Monteiro de Oliveira
 ## Desenvolvedora
 
 Deise Freire
+
+## Por favor visite o projeto Replit
+ 
+https://experienceIn.deisefreire2022.repl.co
+
+[Por favor visite o projeto no pythonanywhere](https://deisefreire.pythonanywhere.com/login/?next=/)
