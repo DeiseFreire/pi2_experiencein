@@ -43,8 +43,26 @@ Fábio Henrique Monteiro de Oliveira
 
 Deise Freire
 
-## Por favor visite o projeto Replit
+## Por favor visite o projeto no Replit
  
 https://experienceIn.deisefreire2022.repl.co
 
-[Por favor visite o projeto no pythonanywhere](https://deisefreire.pythonanywhere.com/login/?next=/)
+[O projeto também se encontra no site pythonanywhere](https://deisefreire.pythonanywhere.com/login/?next=/)
+
+## Tecnologias utilizadas
+
+Python 3.7
+Django 2.2
+HTML
+CSS
+Bootstrap
+Pip
+
+## Documento de implantação do projeto
+
+[Por favor visite o documento de implantação ](https://docs.google.com/document/d/1xHHDQqH2ZyNVKg-HIPI26UiB50L_E3AI/edit?usp=sharing&ouid=112909695294931635515&rtpof=true&sd=true)
+
+
+## Status do projeto
+
+Em desenvolvimento
